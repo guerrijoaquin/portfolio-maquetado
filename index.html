@@ -8,16 +8,64 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <p>Joaquin Guerrini</p>
-        <div>
-
+<header class="d-flex bg-dark container-fluid justify-content-between align-items-center">
+    <p class="m-1 text-primary d-inline">Toda la información mostrada es de carácter ilustrativo.</p>
+    <button class="m-1 btn btn-primary btn-sm">LOGIN</button>
+</header>
+<div id="body" class="p-3">
+    <section class="p-0 pb-3">
+        <div id="banner" class="custom-btr">
+            <img id="profile-img" src="images/imagen.png" class="rounded-circle ml-3" />
         </div>
-    </header>
+        <div style="height: 50px; width: 100px;">
+            <button class="btn p-0" id="edit-pp"><img src="images/edit-icon.svg" /></button>
+        </div>
+        <div class="p-3 container-fluid d-flex justify-content-between">
+            <div>
+                <h6>Joaquin Guerrini</h6>
+                <p class="small m-0">Estudiante en ECEA</p>
+                <p class="small m-0">Buenos Aires, Argentina</p>
+            </div>
+            <div>
+                <figure class="top-logo">
+                    <img src="images/UBA.png"/>
+                    <caption>UBA</caption>
+                </figure>
+                <figure class="top-logo">
+                    <img src="images/ecea.png"/>
+                    <caption>ECEA</caption>
+                </figure>
+            </div>
+        </div>
+    </section>
+                    
+    <div style="height: 15px;"></div>
+    <section class="p-3 container-fluid">
+        <div class="container-fluid d-flex justify-content-between">
+            <h6>Acerca de</h6>
+            <button class="btn p-0" id="edit-ad"><img src="images/edit-icon.svg" width="15px" /></button>
+        </div>
+        <p>Estudiante de bachillerato en economía y administración. Estudiante autodidacta de programación y tecnologías de la información.</p>
+    </section>
+    
+                    
+    <div style="height: 15px;"></div>
+    <section class="p-3 container-fluid">
+        <div class="container-fluid d-flex justify-content-between">
+            <h6>Acerca de</h6>
+            <button class="btn p-0" id="edit-ad"><img src="images/add-icon.svg" width="15px"/></button>
+        </div>
+        <p>Matemático, físico e ingeniero histórico de la Ciudad de Buenos Aires.</p>
+    </section>
+
+</section>
+</div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
